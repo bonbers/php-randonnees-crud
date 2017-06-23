@@ -6,8 +6,8 @@
 	<link rel="stylesheet" href="css/basics.css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
-	<a href="/php-pdo/read.php">Liste des randonnées</a>
-	<h1>Ajouter</h1>
+	<a href="./read.php">Liste des randonnées</a>
+	<h1>Mettre à jour</h1>
 	<form action="" method="post">
 		<div>
 			<label for="name">Name</label>
@@ -24,7 +24,7 @@
 				<option value="très difficile">Très difficile</option>
 			</select>
 		</div>
-		
+
 		<div>
 			<label for="distance">Distance</label>
 			<input type="text" name="distance" value="">
